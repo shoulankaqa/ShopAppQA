@@ -39,6 +39,7 @@ Major
 Medium
 
 ## Окружение
+- Shop App: 1.0.0
 - ОС: macOS 26.2
 - Браузер: Comet
 - URL: http://localhost:3001
