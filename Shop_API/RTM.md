@@ -17,7 +17,26 @@
 - REQ_CART_003 — Изменение количества товара
 - REQ_CART_004 — Расчёт итоговой стоимости корзины
 - REQ_CART_005 — Просмотр корзины
+- REQ_ORDER_001 — Оформление заказа
+- REQ_PROFILE_001 — Общие требования к профилю
+- REQ_PROFILE_002 — Управление email
+- REQ_PROFILE_003 — Изменениe пароля
 - REQ_ACCESSIBILITY_001 - Требования к доступности
+- REQ_UI_001 — Общие требования к пользовательскому интерфейсу
+- REQ_SETTINGS_001 — Переключение темы интерфейса
+- REQ_SETTINGS_002 — Включение анимации снега 
+- REQ_USER_001 — Просмотр пользователей (ADMIN/SELLER)
+- REQ_USER_002 — Создание пользователя (ADMIN)
+- REQ_USER_003 — Редактирование пользователя (ADMIN)
+- REQ_USER_004 — Удаление пользователя (ADMIN)
+- REQ_USER_005 — Ограничение прав доступа
+- REQ_WALLET_001 — Кошелёк пользователя
+- REQ_NF_001 — Производительность
+- REQ_NF_002 — Безопасность
+- REQ_NF_003 — Кроссбраузерность
+- REQ_NF_004 — Адаптивность / Поддерживаемые устройства
+
+---
 
 ## Тест-кейсы по требованиям
 
@@ -36,6 +55,26 @@
 - REQ_CART_003 — PROD_CART_POS_008, PROD_CART_POS_009, PROD_CART_POS_010
 - REQ_CART_004 — PROD_CART_POS_005, PROD_CART_POS_006, PROD_CART_POS_007
 - REQ_CART_005 — PROD_CART_POS_002, PROD_CART_POS_003
+- REQ_ORDER_001 — 
+- REQ_PROFILE_001 — 
+- REQ_PROFILE_002 — 
+- REQ_PROFILE_003 — 
+- REQ_ACCESSIBILITY_001 -
+- REQ_UI_001 —
+- REQ_SETTINGS_001 — 
+- REQ_SETTINGS_002 — 
+- REQ_USER_001 — 
+- REQ_USER_002 — 
+- REQ_USER_003 — 
+- REQ_USER_004 — 
+- REQ_USER_005 — 
+- REQ_WALLET_001 — 
+- REQ_NF_001 — 
+- REQ_NF_002 — 
+- REQ_NF_003 — 
+- REQ_NF_004 — 
+
+--- 
 
 ## Баги по требованиям
 
@@ -44,4 +83,7 @@
 - REQ_ACCESSIBILITY_001: BUG_COMMON_001
 - REQ_SETTINGS_001: BUG_SETTINGS_001
 - REQ_SETTINGS_002: BUG_SETTINGS_001
-- REQ_AUTH_004 — BUG_FORGOTPWD_001
+- REQ_AUTH_004: BUG_FORGOTPWD_001, BUG_FORGOTPWD_002, BUG_FORGOTPWD_003
+- REQ_UI_001: BUG_CART_001, BUG_CART_002
+
+---
