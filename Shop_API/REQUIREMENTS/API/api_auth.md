@@ -16,8 +16,8 @@
    Формат: `application/json`  
 
    Обязательные поля:
-   - `username` (string) — логин пользователя, должен быть уникален в системе согласно требованиям REQ_AUTH_001 - Требования к логину.
-   - `password` (string) — пароль пользователя, должен соответствовать требованиям REQ_AUTH_002 — Требования к паролю.
+   - `username` (string) — логин пользователя, должен быть уникален в системе согласно требованиям Требования к регистрации.
+   - `password` (string) — пароль пользователя, должен соответствовать требованиям REQ_AUTH_001 — Требования к регистрации.
    (в отличие от администратора, обычный пользователь не может обходить эти требования)
 
    Пример запроса:
@@ -28,8 +28,8 @@ Host: api.example.com
 Content-Type: application/json
 
 {
-  "username": "john",
-  "password": "Pass1!"
+  "username": "john_doe",
+  "password": "Password1!"
 }
 ```
 
@@ -53,7 +53,7 @@ Content-Type: application/json
 
 {
   "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "username": "john",
+  "username": "john_doe",
   "role": "user"
 }
 ```
@@ -122,8 +122,8 @@ Host: api.example.com
 Content-Type: application/json
 
 {
-  "username": "john",
-  "password": "Pass1!"
+  "username": "john_doe",
+  "password": "Password1!"
 }
 ```
 
@@ -167,7 +167,7 @@ Content-Type: application/json
   "refresh_token": "eyJhbGciOi...",
   "user": {
     "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "username": "john",
+    "username": "john_doe",
     "email": "john@example.com",
     "role": "user"
   }
@@ -316,7 +316,7 @@ Content-Type: application/json
    - Поведение:
      - сохранённый `refresh_token` текущего пользователя должен быть удалён/инвалидирован;
      - дальнейшие запросы на `/refresh` с этим `refresh_token` должны завершаться ошибкой `401 Unauthorized`;
-     - текущий `access_token` может оставаться валидным до истечения срока жизни либо быть немедленно инвалидирован — выбранное поведение описывается в общих требованиях к безопасности (например, REQ_AUTH_004 — Политика токенов).
+     - текущий `access_token` может оставаться валидным до истечения срока жизни либо быть немедленно инвалидирован — выбранное поведение описывается в общих требованиях к безопасности (например, REQ_AUTH_XXX — Политика токенов).
 
 6. Ошибки
 

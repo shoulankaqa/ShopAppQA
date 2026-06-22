@@ -113,7 +113,7 @@ Authorization: Bearer <access_token>
 |------------|----------|----------|-----------------------------------------------|
 | `operation`| `string` | Yes      | `DEPOSIT` (зачисление) или `WITHDRAW` (списание) |
 | `amount`   | `number` | Yes      | Сумма > 0                                     |
-| `description`| `string`| No       | Описание платежа (опционально)                |
+| `description`| `string`| No       | Комментарий к пополнению (опционально)                |
 
 Пример:
 ```json

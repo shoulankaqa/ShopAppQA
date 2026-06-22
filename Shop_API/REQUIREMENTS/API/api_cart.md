@@ -31,7 +31,7 @@
       "product": {
         "id": 0,
         "name": "string",
-        "price": 0,
+        "price": 1,
         "available": true
       },
       "quantity": 0
