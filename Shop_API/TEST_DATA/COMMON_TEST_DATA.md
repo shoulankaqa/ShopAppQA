@@ -15,4 +15,4 @@
 ## Email
 
 nonexistuser - nonexistuseremail@test.com - несуществующий пользователь с несуществующим email
-t_user - tuser@test.com - существующий пользователь с подтвержденным email
+t_user - t_user@test.com - существующий пользователь с подтвержденным email

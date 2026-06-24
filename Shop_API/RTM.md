@@ -2,7 +2,7 @@
 
 | Модуль | ID Требования | Краткое описание | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |--------|---------------|------------------|---------------|----------------|-------------------|
-| Аутентификация | REQ_AUTH_001 | Требования к регистрации | AUTH_REG_POS_001, AUTH_REG_POS_002, AUTH_REG_POS_003, AUTH_REG_NEG_001, UTH_REG_NEG_002, AUTH_REG_NEG_003, AUTH_REG_NEG_004,     |  |  |
+| Аутентификация | REQ_AUTH_001 | Требования к регистрации | AUTH_REG_POS_001, AUTH_REG_POS_002, AUTH_REG_POS_003, AUTH_REG_POS_004, AUTH_REG_POS_005, AUTH_REG_POS_006, AUTH_REG_POS_007, AUTH_REG_POS_008, AUTH_REG_POS_009, AUTH_REG_NEG_001, AUTH_REG_NEG_002, AUTH_REG_NEG_003, AUTH_REG_NEG_004, AUTH_REG_NEG_005, AUTH_REG_NEG_006, AUTH_REG_NEG_007     | BUG_AUTH_REGISTER_001  |  |
 
 ---
 
@@ -22,7 +22,7 @@
 | Модуль      | ID Требования    | Краткое описание                                             | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |-------------|------------------|--------------------------------------------------------------|---------------|----------------|-------------------|
 | Товары      | REQ_PRODUCT_001  | Просмотр списка товаров                                      | PROD_READ_POS_001                |                |                   |
-| Товары      | REQ_PRODUCT_002  | Создание товара (admin/seller)                              |PROD_CREATE_POS_001, PROD_CREATE_POS_002, PROD_CREATE_POS_003, PROD_CREATE_POS_004, PROD_CREATE_POS_005, PROD_CREATE_POS_006, PROD_CREATE_NEG_001, PROD_CREATE_NEG_002, PROD_CREATE_NEG_003, PROD_CREATE_NEG_004,              | BUG_PROD_CREATE_001, BUG_PROD_CREATE_002, BUG_PROD_UPDATE_001                |                   |
+| Товары      | REQ_PRODUCT_002  | Создание товара (admin/seller)                              |PROD_CREATE_POS_001, PROD_CREATE_POS_002, PROD_CREATE_POS_003, PROD_CREATE_POS_004, PROD_CREATE_POS_005, PROD_CREATE_POS_006, PROD_CREATE_NEG_001, PROD_CREATE_NEG_002, PROD_CREATE_NEG_003, PROD_CREATE_NEG_004,              | BUG_PROD_CREATE_001, BUG_PROD_CREATE_002, BUG_PROD_CREATE_003 BUG_PROD_UPDATE_001                |                   |
 | Товары      | REQ_PRODUCT_003  | Редактирование товара (admin/seller)                        | PROD_UPDATE_POS_001, PROD_UPDATE_POS_002, PROD_UPDATE_NEG_001, PROD_UPDATE_NEG_002,                 |                |                   |
 | Товары      | REQ_PRODUCT_004  | Удаление товара (admin)                                     | PROD_DELETE_POS_001,                |                |                   |
 | Товары      | REQ_PRODUCT_005  | Настройка количества отображаемых товаров на странице       | PROD_PAGE_SIZE_POS_001               |                |                   |
@@ -52,7 +52,7 @@
 
 | Модуль   | ID Требования   | Краткое описание                          | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |----------|-----------------|-------------------------------------------|---------------|----------------|-------------------|
-| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация |               |BUG_WALLET_001, BUG_WALLET_002                |                   |
+| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация |               |BUG_WALLET_001, BUG_WALLET_002, BUG_WALLET_003                 |                   |
 
 ---
 
