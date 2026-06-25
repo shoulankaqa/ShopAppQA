@@ -2,7 +2,7 @@
 
 | Модуль | ID Требования | Краткое описание | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |--------|---------------|------------------|---------------|----------------|-------------------|
-| Аутентификация | REQ_AUTH_001 | Требования к регистрации | AUTH_REG_POS_001, AUTH_REG_POS_002, AUTH_REG_POS_003, AUTH_REG_POS_004, AUTH_REG_POS_005, AUTH_REG_POS_006, AUTH_REG_POS_007, AUTH_REG_POS_008, AUTH_REG_POS_009, AUTH_REG_NEG_001, AUTH_REG_NEG_002, AUTH_REG_NEG_003, AUTH_REG_NEG_004, AUTH_REG_NEG_005, AUTH_REG_NEG_006, AUTH_REG_NEG_007     | BUG_AUTH_REGISTER_001  |  |
+| Аутентификация | REQ_AUTH_001 | Требования к регистрации | AUTH_REG_POS_001, AUTH_REG_POS_002, AUTH_REG_POS_003, AUTH_REG_POS_004, AUTH_REG_POS_005, AUTH_REG_POS_006, AUTH_REG_POS_007, AUTH_REG_POS_008, AUTH_REG_POS_009, AUTH_REG_NEG_001, AUTH_REG_NEG_002, AUTH_REG_NEG_003, AUTH_REG_NEG_004, AUTH_REG_NEG_005, AUTH_REG_NEG_006,  AUTH_REG_NEG_007, AUTH_REG_NEG_008, AUTH_REG_NEG_009, AUTH_REG_NEG_010     | BUG_AUTH_REGISTER_001  |  |
 
 ---
 
@@ -33,7 +33,7 @@
 | Модуль | ID Требования  | Краткое описание                      | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |--------|----------------|---------------------------------------|---------------|----------------|-------------------|
 | Корзина | REQ_CART_001  | Добавление товара в корзину          | PROD_CART_POS_001,                |                |                   |
-| Корзина | REQ_CART_002  | Удаление товара из корзины           | PROD_CART_POS_004, PROD_CART_POS_005, PROD_CART_POS_011               |                |                   |
+| Корзина | REQ_CART_002  | Удаление товара из корзины           | PROD_CART_POS_004, PROD_CART_POS_005, PROD_CART_POS_011               | BUG_CART_003                |                   |
 | Корзина | REQ_CART_003  | Изменение количества товара в корзине| PROD_CART_POS_009, PROD_CART_POS_010,                |                |                   |
 | Корзина | REQ_CART_004  | Расчёт итоговой стоимости корзины    |PROD_CART_POS_005, PROD_CART_POS_006, PROD_CART_POS_007, PROD_CART_POS_008,                |                |                   |
 | Корзина | REQ_CART_005  | Просмотр корзины                     | PROD_CART_POS_002, PROD_CART_POS_003,                |                |                   |
@@ -52,7 +52,7 @@
 
 | Модуль   | ID Требования   | Краткое описание                          | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |----------|-----------------|-------------------------------------------|---------------|----------------|-------------------|
-| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация |               |BUG_WALLET_001, BUG_WALLET_002, BUG_WALLET_003                 |                   |
+| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация | WALLET_POS_001, WALLET_POS_002, WALLET_POS_003, WALLET_POS_004, WALLET_POS_005               |BUG_WALLET_001, BUG_WALLET_002, BUG_WALLET_003,                  |                   |
 
 ---
 
