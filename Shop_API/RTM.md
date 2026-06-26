@@ -52,7 +52,7 @@
 
 | Модуль   | ID Требования   | Краткое описание                          | ID Тест-кейса | ID Баг-репорта | Статус / Покрытие |
 |----------|-----------------|-------------------------------------------|---------------|----------------|-------------------|
-| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация | WALLET_POS_001, WALLET_POS_002, WALLET_POS_003, WALLET_POS_004, WALLET_POS_005               |BUG_WALLET_001, BUG_WALLET_002, BUG_WALLET_003,                  |                   |
+| Кошелёк  | REQ_WALLET_001  | Кошелёк пользователя: баланс, пополнение, история операций, валидация | WALLET_POS_001, WALLET_POS_002, WALLET_POS_003, WALLET_POS_004, WALLET_POS_005, WALLET_POS_006, WALLET_POS_007, WALLET_POS_008, WALLET_POS_009, WALLET_POS_010, WALLET_POS_011, WALLET_POS_012, WALLET_POS_013, WALLET_POS_014, WALLET_POS_015, WALLET_POS_016, WALLET_POS_017, WALLET_POS_018, WALLET_POS_019, WALLET_POS_020, WALLET_POS_021, WALLET_POS_022, WALLET_POS_023, WALLET_POS_024              |BUG_WALLET_001, BUG_WALLET_002, BUG_WALLET_003,                  |                   |
 
 ---
 
