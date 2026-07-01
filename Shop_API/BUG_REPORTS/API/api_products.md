@@ -18,7 +18,7 @@
 - Открыт REST клиент Insomnia (или любой аналог)
 - В системе существуют пользователи с ролями ADMIN/SELLER
 - Получен токен для обращения к API от имени ADMIN/SELLER
-- Доступен endpoint создания товара в API - POST http://localhost:3000/products
+- Доступен endpoint создания товара в API - `POST http://localhost:3000/products`
 - Установлены заголовки:
  - accept: application/json
  - Content-Type: application/json
@@ -36,7 +36,7 @@
 ```
 
 2. Проверить ответ API
-3. Убедиться, что товар с ценой 0 создан запросом GET http://localhost:3000/products
+3. Убедиться, что товар с ценой 0 создан запросом `GET http://localhost:3000/products`
 
 ## Ожидаемый результат
 
@@ -77,9 +77,12 @@ Medium
 High
 
 ## Окружение
+- Swagger: OAS 3.0
 - Shop App: 1.0.0
-- Insomnia: v12.5.0
 - ОС: macOS 26.2
+- Браузер: Comet (сборка на основе Perplexity)
+  - Версия Comet: 148.0.7778.257 (официальная сборка)
+  - Номер сборки Perplexity: 1743
 - URL: http://localhost:3001
 
 ## Дополнительно
